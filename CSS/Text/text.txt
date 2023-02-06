@@ -1,0 +1,12 @@
+text css
+
+
+direction:ltr/rtl;
+text-align:Justify
+text-align-last:right;
+text-transform:uppercase;
+text-decoration:none;underline;
+text-indent:70px; gap in first line from starting
+letter-spacing:space between letters
+word-spacing:space between words
+line-hight: for declare the line height;

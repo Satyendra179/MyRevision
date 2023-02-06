@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name:colorchange;
+            animation-duration: 5s;
+            animation-delay: 3s;
+            animation-iteration-count:infinite ;
+            animation-direction: reverse;
+        }
+        @keyframes colorchange {
+            from{background-color: rgb(89, 0, 255);
+            top: 0px;
+            left: 0px;
+        }
+            to{background-color: yellow;
+            top: 0px;
+            left: 200px;
+        }
+        
+        }
+        p{
+            color:blue;
+            font-size: 25px;
+            position:relative ;
+            animation-name:textColor;
+            animation-duration: 10s;
+        }
+        @keyframes textColor{
+            from{color: white;}
+            to{color: red;}
+        }
+    </style>
+</head>
+<body>
+    <!-- Animation  -->
+    <div></div>
+    <p>This going to kill this</p>
+    
+</body>
+</html>

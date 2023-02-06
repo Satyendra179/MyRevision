@@ -1,0 +1,15 @@
+List of Content
+
+1. Gradient
+2. Linear gradient
+3. Radial gradient
+4. Conic gradient
+
+Gradient
+
+It lets you display smooth transitions between two or more specified colors.
+
+CSS defines three types of gradients:
+● Linear Gradients (goes down/up/left/right/diagonally)
+● Radial Gradients (defined by their center)
+● Conic Gradients (rotated around a center point)

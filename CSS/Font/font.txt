@@ -1,0 +1,5 @@
+font-color(not supported)
+font-family
+font-size
+font-variant
+font-weight

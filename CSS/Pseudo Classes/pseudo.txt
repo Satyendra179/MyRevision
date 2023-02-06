@@ -1,0 +1,10 @@
+hover
+focus normally used on 
+      button or input tag
+link
+visited
+active
+first-child
+long
+last-child
+nth-child();

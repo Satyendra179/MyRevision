@@ -1,0 +1,6 @@
+::first-line
+::first-letter
+::after
+::before
+::marker
+::selection

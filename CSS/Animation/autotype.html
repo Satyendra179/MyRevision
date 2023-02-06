@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autotype</title>
+    <style>
+        *{
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins',sans-serif;
+        }
+
+        .auto-type{
+            width: 100%;
+            height: 100vh;
+            background-color: #2b323c;
+            color: #fff;
+
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .typing{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- Auto Typing -->
+    <div class="auto-type">
+        <h1>I am <span class="typing"></span></h1>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".typing",{
+            strings:["Satyendra Pratap Singh", "a Software Engineer"],
+            typeSpeed:150,
+            backSpeed:150,
+            loop:true
+        })
+
+    </script>
+</body>
+</html>
