@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over flow and Z-index</title>
+    <style>
+        p{
+            height: 250px;
+            width: 250px;
+            background-color: #e71a1a;
+            overflow: scroll;
+            /* Overflow: scroll, auto, hidden, */
+        }
+        .one{
+            height: 50px;
+            width:50px;
+            background-color: #5d22d3;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+
+
+        }
+        .two{
+            height: 50px;
+            width:50px;
+            background-color: #f02439;
+            position: absolute;
+            
+
+        }
+    </style>
+</head>
+<body>
+    
+    <!--  Overflow -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae pariatur laudantium magnam minima placeat, aut esse tempore similique molestiae laborum?</p>    
+
+
+       <!-- Z-index -->
+    <div class="one"></div> 
+    <div class="two"></div>
+
+    
+    
+</body>
+</html>

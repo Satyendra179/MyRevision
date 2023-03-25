@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaQuery</title>
+    <style>
+        @media (max-width:650px){
+            p::after{
+                /* background-color: blue; */
+                content: "hello this is Satyendra Pratap Singh";
+            }
+            body{
+                background-color: #491fd4;
+            }
+        }
+        @media (min-width:650px){
+            p::after{
+                background-color: #ff00b3;
+                content: "lorem7";
+            }
+            body{
+                background-color: #acc316;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>billo billo karti hai</p>
+</body>
+</html>

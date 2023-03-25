@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- logo -->
+        <div id="logo">Logo</div>
+        <!-- Navigation -->
+        <div id="list">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Contact</a></li>
+
+               
+            </ul>
+            <div id="search">
+                <input type="text" placeholder="Search">
+                <button>Search</button>
+            </div>
+        </div>
+    </header>
+    <!-- middle content -->
+    <div class="show">
+        <div id="content">
+            <h3>Hello, I am <span class="typing"></span></h3>
+            <p>I am aspiring <span>Full Stack JavaScript Developer.</span>
+                <br>
+                 who is working with PW Skills <span>national and international client</span>
+            </p>
+            
+        </div>
+        <div id="image">
+            <img src="../images/myzprofilepic.png" alt="">
+            <button>Chat With Me</button>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Copyright &copy; 2022 LOGO. All rights reserved</p> <br>
+        <div>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        
+    </div>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".typing",{
+            strings:["Satyendra Pratap Singh", "a Software Engineer"],
+            typeSpeed:150,
+            backSpeed:150,
+            loop:true
+        })
+
+    </script>
+</body>
+</html>

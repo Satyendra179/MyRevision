@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        #container{
+            width: 98%;
+            height: 500px;
+            /* border: 2px solid green; */
+            display:flex;
+            flex-wrap:wrap ;
+            justify-content: space-around;
+            gap: 10px;
+            overflow: scroll;
+            flex-flow:scroll;
+        }
+        #container > div{
+            /* border: 2px solid red; */
+            width: 100px;
+            height: 100px; 
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Flex Container -->
+    <!-- display
+         flex-direction
+         flex-wrap
+         flex-flow
+         justify-content
+         align-items
+         align-content
+         gap=> row-gap
+               column-gap
+                            -->
+
+        
+<div id="container">
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+    <div><img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fuser%2Fprofile_pictures%2F63a1f553ef6b13b9af76a922.jpeg&w=96&q=75" alt=""></div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+</div>
+<!-- flex Items property
+    order
+    flex-grow
+    flex-basis
+    flex
+    align-self
+
+
+
+
+
+
+-->
+
+
+    
+</body>
+</html>
