@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="res"></h1>
+    <button onclick="getDe()">Date</button>
+    <button onclick="year()">Year</button>
+    <button onclick="month()">Month</button>
+    <button onclick="hour()">Hour</button>
+    <button onclick="dte()">DT</button>
+</body>
+</html>
+<script>
+    var date = new Date();
+    function getDe(){
+        document.getElementById('res').innerText=date;
+    }
+    function year(){
+        document.getElementById('res').innerText=date.getFullYear();
+    }
+
+    function month(){
+        document.getElementById('res').innerText=date.getMonth()+1;
+
+    }
+    function hour(){
+        document.getElementById('res').innerText=date.getHours()+1;
+
+    }
+    function dte(){
+        document.getElementById('res').innerText=date.getDate();
+
+    }
+    
+    
+</script>

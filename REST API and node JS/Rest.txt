@@ -1,0 +1,15 @@
+REST
+
+Re=> Representational
+S=>  State
+T=>  Transfer
+
+CRUD
+
+C- Create    => POST
+R- Read      => GET
+U- Update    => PUT
+D- Delete    => DELETE
+U->niversal 
+R-esource
+I-dentifier

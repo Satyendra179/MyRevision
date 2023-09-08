@@ -1,6 +1,6 @@
 var sweets = [ "gulab Jamun","Kova", "Kalakand", "Laddu" ];
 
-sweets.forEach((el,array)=>{
+sweets.forEach((el,index,array)=>{
     console.log(el,array);
 });
 

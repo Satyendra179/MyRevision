@@ -1,0 +1,105 @@
+Screens
+Estra Small==>  <576px 
+540 small ==> 576px - 768px 
+ 720 medium ==> 768px-992px
+960 large ==> 992px-1200px
+ 1140 extra large==> 1200px-1400px
+1320 extra extra large ===> >1400px
+classes
+container-screen code
+row 
+
+column class
+col-screen code
+
+gutter classes for padding
+gx,gy ===> x and y are axis 
+gx-size
+gy-size
+
+text-classes
+
+text-align
+
+text-center
+text-end
+text-start
+
+text-break
+
+
+transform
+
+text-uppercase
+text-lowercase
+text-capitalized
+
+font size
+
+fs-1 2.5rem
+fs-2 2rem
+fs-3 1.75rem
+fs-4 1.5rem
+fs-5 1 rem
+
+font weight
+fw-bold
+fw-bolder
+bold
+bolder
+lighter
+
+font style
+
+fst-italic
+fst-normal
+
+Utility Classes(Spacing)
+
+Margin and padding
+.m- for classes that set Margin
+.p- for classes that set padding
+
+ 
+t for top
+b for bottom
+s for start
+e for end
+x for left and right both means x axis
+y for y axis for top and bottom
+
+p-1 .25rem 4px
+p-2 .5rem 8px
+p-3 1rem 16px
+p-4 1.5rem 24px
+p-5 3rem 48px
+
+
+BackGround and Gradient
+
+Blue----> bg-primary
+Gray-----> bg-secondary
+Green----> bg-success
+Red---------> bg-danger
+Yellow----> bg-warning
+OceanBlue-----> bg-info
+white---> bg-light/bg-white/bg-body/bg-transparent
+Black-----> bg-dark
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
