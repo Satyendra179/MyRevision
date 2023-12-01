@@ -1,0 +1,41 @@
+React
+======
+    React is JavaScript Library. 
+    It is developed by Facebook. 
+    It is used for creat UI. 
+    This is used to create singal page application.
+
+Features 
+=========
+    1. JSX
+    2. components
+    3. one way data binding
+    4. Vertual DOM
+    5. Simplicity
+    6. Performance--->Reactive
+============
+Props
+========
+    React.js is the component based library which divides
+    UI into little reusable pieces.
+
+    In some cases thesed component need to communicate(Send
+    data to each other) and way to pass the data between 
+    components is by using props.
+
+    "Props is special keyword in React, which stands for 
+    properties  and is being used for passing data from 
+    one component to another.
+
+    But importand part is here 
+    is that data with props are 
+    being passed in a uni-directional flow. 
+    (One way from parent to child)
+===========
+State
+========
+
+State is built-in object of React Components.
+
+The state object is used to store all the data 
+that belongs to that particular only.
