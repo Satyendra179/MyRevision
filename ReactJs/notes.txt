@@ -38,4 +38,4 @@ State
 State is built-in object of React Components.
 
 The state object is used to store all the data 
-that belongs to that particular only.
+that belongs to that particular component only.
