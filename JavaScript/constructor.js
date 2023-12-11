@@ -82,3 +82,17 @@
 // mybind();
 // console.log(person1)
 
+// console.log(this)
+// var a=this;
+// console.log(a); 
+
+
+// 'this' will always point to an object.
+
+// It points to the owner object, either a global object or a custom object that you created.
+
+//It can point to defferent owner object through few methods that we are going to learn(call(),apply(),bind());
+
+
+
+

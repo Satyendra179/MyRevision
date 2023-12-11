@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="" onsubmit="storeProduct(event)" id="p">
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="type" placeholder="Type">
+            <input type="number" id="price" placeholder="Price">
+            <input type="text" id="image" placeholder="Image Url">
+            <input type="submit">
+        </form>
+    </div>
+    <div id="product">
+
+    </div>
+   
+</body>
+</html>
+<script>
+    function storeProduct(e){
+        e.preventDefault();
+        let arr = JSON.parse(localStorage.getItem('dbproduct'))||[];
+        let form= document.getElementById('p');
+        let name=form.name.value;
+        let price=form.price.value;
+        let type=form.type.value;
+        let img=form.image.value;
+        // console.log(img,name,type,price)
+        let obj = new productO(name, price, type, img);
+        arr.push(obj);
+        localStorage.setItem("dbproduct",JSON.stringify(arr))
+        console.log(arr);
+        
+        
+    }
+    function productO(n,p,t,i){
+        this.name=n;
+        this.price=p;
+        this.img=i;
+        this.type=t;
+    }
+</script>
