@@ -55,3 +55,64 @@
 
 // primitives- points to the directly value;==>by value
 // non-primitives- it points to its state/address.==> by reference
+
+
+//==========
+// Hoisting=
+//==========
+
+// it helps to keep attendance sheet of javaScript program.
+// it applies to variables and functions.
+// also, it only consider declaration part and not the actual assingnment.
+// All hoisting cares about is what variables and functions are present in a program.
+
+
+//===================
+// Excution Context =
+//===================
+// frame/scope where js code is executed.
+// Environment in which the JavaScript code is executed.
+
+
+// By environment, I mean the value of this, variables, 
+// objects, functions JavaScript code has access to at a particular time.
+
+//============================
+// Types of excution context =
+//============================
+// Global context
+// Functional context
+
+//=========================
+// Global excution context=
+//=========================
+
+// This is the default execution context in which JS code starts its 
+//execution when the file first loads in the brower.
+
+// var x  = 9; 
+// var obj = {};
+
+//===========================
+// Functional excution context====
+//===========================
+
+
+// Functional Excution context is defined as the context created by the JS
+// engine whenever it finds any function call.
+
+// function test(){
+//     var i=0;
+
+// }
+
+// test();
+
+//When a JavaScript engine executes a script , it creates execution ontexts. 
+// Each execution context has two phases.
+
+//  Creation Phase
+//
+//   Excution Phase 
+
+ 
