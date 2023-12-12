@@ -96,3 +96,27 @@
 
 
 
+// let kitchen = {
+//     name: "Kitchen", 
+//     purpose:"cook",
+//     cookFood:function(order){
+//         console.log(`Serving ${order} in ${this.name} `);
+//     }
+// };
+
+// let living_room = {
+//     name: "living room",
+//     purpose:"watching tv",
+// }
+
+// let bedroom = {
+//     name: 'bedroom',
+//     purpose:'sleep',
+// }
+
+// kitchen.cookFood("Maggie");
+// kitchen.cookFood.call(living_room, "Maggie")
+// kitchen.cookFood.call(bedroom, "Maggie")
+// kitchen.cookFood.apply(living_room, ["Maggie"])
+
+
