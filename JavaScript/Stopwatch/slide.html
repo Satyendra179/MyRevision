@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            width: 200px;
+            height: 50px;
+            text-decoration: none;
+            border: 2px solid green;
+            color: #fff;
+            background-color: black;
+            padding: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+    <a href="./index.html">Watch Slide Show</a>
+    <input type="text" id="image" placeholder="Image Link">
+    <input type="button" value="submit" onclick="storeImage()">
+</body>
+</html>
+<script>
+function storeImage(){
+    let img= document.getElementById('image').value;
+    let images=JSON.parse(localStorage.getItem('Images'))||[];
+    images.push(img);
+    localStorage.setItem('images',JSON.stringify(images))
+}
+</script>

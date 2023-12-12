@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #img_div{
+            width: 80%;
+            height: 500px;
+            border: 2px solid red;
+            margin:100px auto;
+            
+            
+        }
+        a{
+            width: 200px;
+            height: 50px;
+            text-decoration: none;
+            border: 2px solid green;
+            color: #fff;
+            background-color: black;
+            padding: 5px;
+            
+        }
+    </style>
 </head>
 <body>
-    <h1 id="timer">HH: <span id="minute">MM:</span> <span id="second">SS:</span> <span id="milis">MS</span></h1>
+    <a href="./slide.html"> Insert Images</a>
+    <div id="img_div">
+        
+    </div>
+
+    <div><button onclick="start()">Start</button><button onclick="stop()">stop</button></div>
 </body>
 </html>
 <script>
