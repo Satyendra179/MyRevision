@@ -101,4 +101,71 @@
 // s1.bio();
 
 
+// function Shoes(b,p,s,i){
+//     this.brand=b;
+//     this.price=p;
+//     this.seller=s;
+//     this.image=i;
+// }
+
+// Shoes.prototype.coupon = function (){
+//     console.log("15% off on this product");
+// }
+// let s1= new Shoes("nike",2000,"Flipkart","ghsdfkghkifsdhjk");
+// s1.coupon();
+// let str="Ravi";
+// console.log(str);
+// str.bold();
+// console.log(str)
+
+
+//Array constructor
+
+// let a1= new Array(1,2,3);
+// console.log(a1);
+//
+
+
+
+// let a1 = new Array("x", "y", 'z');
+// function myArray(){
+
+//     Object.defineProperty(this,'length',{
+//         value:0,
+//         writable:true,
+//         evumerable: false
+//     })
+
+//     this.length=arguments.length;
+//     for(let i=0; i<this.length; i++){
+//         this[i]=arguments[i];
+//     }
+// }
+
+// let a2 = new myArray('x','y','z');
+// // console.log("a2",Object.values(a2));
+
+// //creating own push function
+// myArray.prototype.push= function(value){
+//     let index=this.length;
+//     this[index]=value;
+//     this.length++;
+// }
+
+// //creating pop function
+// myArray.prototype.pop= function(){
+//     let index=this.length-1
+//     delete this[index];
+//     this.length--;
+// }
+
+
+// a2.push('s')
+// console.log(Object.values(a2));//[ 'x', 'y', 'z', 'f' ]
+// a2.pop()
+// a2.r('f');
+// console.log(Object.values(a2));//[ 'x', 'y', 'z', 'f' ]
+// console.log((a2));//myArray { '0': 'x', '1': 'y', '2': 'z', '3': 'f' }
+
+
 
