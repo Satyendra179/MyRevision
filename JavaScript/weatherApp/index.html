@@ -3,10 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MyWeatherApp</title>
+    <style>
+    *{
+        margin: 0;
+        padding:0
+    }
+    #city{
+        margin: 8vmin;
+        padding: 0.5rem;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    #submit{
+        margin: 8vmin;
+        padding: 0.5rem;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    #container{
+        width: 30%px;
+        height: 200px;
+        background-color: #277a93;
+        color: #fff;
+        margin: 100px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    #container > p{
+        margin-top: 10px;
+    }
+    
+    </style>
 </head>
 <body>
-    
+    <input type="text" id="city" placeholder="Enter City Name" >
+    <button onclick="getData()" id="submit"> Get Weather Report</button>
+    <div id="container"></div>
 </body>
 </html>
 <script src="./index.js"></script>
