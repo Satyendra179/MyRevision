@@ -83,24 +83,24 @@
 // .then(res=>res.json())
 // .then(json=>console.log(json))
 
-const url = 'https://fakestoreapi.com/products';
+// const url = 'https://fakestoreapi.com/products';
 
-fetch(url).then(res=>res.json()).then(res=>appendData(res)).catch(err=>console.log(err))
-// console.log(x)
+// fetch(url).then(res=>res.json()).then(res=>appendData(res)).catch(err=>console.log(err))
+// // console.log(x)
 
-var container=document.getElementById('container');
-function appendData(data){
-    data.forEach(function(el){
-        let title= document. createElement('p')
-        title.innerText=el.title;
-        let price =document.createElement('p');
-        price.innerText="$"+el.price;
-        let img = document.createElement('img');
-        img.src =el.image;
-       let div= document.createElement('div');
-        div.append(img,price, title)
-       container.append(div);
+// var container=document.getElementById('container');
+// function appendData(data){
+//     data.forEach(function(el){
+//         let title= document. createElement('p')
+//         title.innerText=el.title;
+//         let price =document.createElement('p');
+//         price.innerText="$"+el.price;
+//         let img = document.createElement('img');
+//         img.src =el.image;
+//        let div= document.createElement('div');
+//         div.append(img,price, title)
+//        container.append(div);
 
-    })
+//     })
 
-}
+// }
