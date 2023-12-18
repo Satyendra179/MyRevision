@@ -85,3 +85,4 @@ function getWeather(){
     }
     
 }
+getWeather()

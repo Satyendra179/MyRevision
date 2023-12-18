@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HotStar</title>
+    <style>
+        #query{
+            width: 200px;
+
+        }
+        #movies{
+            border: solid 1px black;
+            height:fit-content;
+            width: 206px;
+            border-top: none;
+            overflow: scroll;
+
+            /* padding-left: 10px; */
+        }
+    </style>
+</head>
+<body>
+    <h1>HotStar</h1>
+
+    <input oninput="debounce(searchMovies,2000)" type="text" id="query">
+
+    <div id="movies">
+        
+        
+    </div>
+</body>
+</html>
+<script src="./index.js"></script>
