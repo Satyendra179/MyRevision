@@ -3,27 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./download.jpeg" type="image/x-icon">
     <title>My HotStar</title>
     <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            background-color: #121319;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            /* width: 80%; */
+            margin: 50px ;
+            gap: 10px;
+            margin-left: 0;
+        }
         #query{
-            width: 200px;
+            width: 90%;
+            background-color: #252833;
+            height: 60px;
+            border-radius: 10px;
+            border: none;
+            color: #8f98b2;
+            font-family:Arial, Helvetica, sans-serif, Times, serif, 'Times New Roman', Times, serif;
+            padding-left:50px;
+            font-weight:normal;
+            font-size: 20px;
+
+            
+
 
         }
         #movies{
-            border: solid 1px black;
-            height:fit-content;
-            width: 206px;
-            border-top: none;
-            overflow: scroll;
+            /* border: solid 1px rgb(201, 198, 198); */
+            width: 80%;
+            margin-left: 14%;
+            display: grid;
+            grid-template-columns:repeat(5,1fr);
+            gap: 10px;
+            /* color: white; */
+
+
 
             /* padding-left: 10px; */
+        }
+        #movies > img{
+            width: 200px;
+            height: 300px;
+            border-radius: 5px;
+        }
+        #movies > img:hover{
+            -ms-zoom-animation: initial;
+        }
+        #logo{
+            /* width: 10%; */
+            margin-left: 0;
+            border-radius: 10px;
+            
+            height: 60px;
+
         }
     </style>
 </head>
 <body>
-    <h1>HotStar</h1>
+    <nav>
+        <img src="./download.jpeg" alt="Logo" id="logo">
 
-    <input oninput="debounce(searchMovies,2000)" type="text" id="query">
+        <input oninput="debounce(searchMovies,2000)" type="text" id="query" placeholder="Movies,shows and more">
+    </nav>
+    
 
     <div id="movies">
         

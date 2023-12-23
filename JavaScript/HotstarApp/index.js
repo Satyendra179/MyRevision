@@ -9,7 +9,7 @@ async function searchMovies(){
     let res = await fetch(url);
     // console.log(res);
     let data = await res.json();
-    // console.log(data);
+    console.log(data);
         
         appendData(data.Search);
     
@@ -32,8 +32,10 @@ function appendData(data){
     data.forEach(function(el){
         let p = document.createElement('p');
         p.innerText=el.Title
+        let img = document.createElement('img');
+        img.src=el.Poster;
         // console.log(el)
-        movies.append(p);
+        movies.append(img);
     })
 }
 
