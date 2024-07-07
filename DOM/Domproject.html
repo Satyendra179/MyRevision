@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Project</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button{
+            border-radius: 20px;
+            height: 30px;
+            width: fit-content;
+            padding: 10px;
+            font-size: 15px;
+            border: none;
+            background-color: #0d0b0b;
+            color: #fff;
+            cursor: pointer;
+        
+        }
+    </style>
+</head>
+<body>
+    <button id="button">Press Me to Change</button>
+    
+</body>
+</html>
+<script>
+    console.log(Math.floor(Math.random()*6))
+   let btn= document.getElementById('button');
+   btn.addEventListener('click', function(){
+    btn.style.color='black';
+    btn.style.backgroundColor='blue';
+   })
+     btn.addEventListener('mouseout',function(){
+        window.location.reload()
+     })
+     let a=1;
+     let b=1;
+     console.log(a.toString()===b);
+</script>

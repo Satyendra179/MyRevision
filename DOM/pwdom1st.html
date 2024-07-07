@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM part one</title>
+</head>
+<body>
+    <!-- by id -->
+    <p id="one">Namaste</p>
+    <!-- by className -->
+    <li class="ravi">hello</li>
+    <li class="ravi">hi</li>
+    <li class="ravi">why</li>
+    
+</body>
+</html>
+<script>
+    let n=document.getElementById('one');
+    console.log(n.innerText);
+
+    let cln = document.getElementsByClassName('ravi')
+    console.log(cln)
+</script>
